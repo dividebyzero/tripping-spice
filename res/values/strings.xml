@@ -4,6 +4,23 @@
     <string name="hello">Hello World, SwearSpearActivity!</string>
     <string name="app_name">SWEAR like ShakeSPEAR</string>
 
+        
+        <!--  menus -->
+        <string name="menu_about">WTF?!?</string>
+        
+        <!--  controls -->
+        <string name="b_randomize">Randomize</string>
+        <string name="b_speak">Speak Now</string>
+        
+            
+        
+        <!--  hints -->
+        <string name="hint_select_to_combine">selected insult will be shown here</string>
+        
+            
+         <!--  error messages -->
+         <string name="tts_error">TTS has errors, not avail :-()</string>
+            
         <!--  row 1 insults -->
         
 <string name="row1_001">artless</string>

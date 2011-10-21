@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#ffffff"
+    >
+    <RelativeLayout
+        android:id="@+id/controls_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dip"
+        android:layout_alignParentBottom="true"   
+          
+    >
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:id="@+id/b_randomize"
+            android:text="@string/b_randomize"
+            />
+
+        <Button
+            android:id="@+id/b_speak"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/b_randomize"
+            android:text="@string/b_speak"
+             />
+        
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:id="@+id/textfield_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@id/controls_container"
+        
+        android:orientation="vertical"
+    >
+
+        <EditText
+            android:id="@+id/t_combined"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"     
+            android:minLines="3"
+            android:maxLines="3"
+
+            android:hint="@string/hint_select_to_combine"   
+         />
+        
+    </LinearLayout>
+</RelativeLayout>

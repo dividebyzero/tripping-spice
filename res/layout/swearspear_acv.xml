@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+
+    <FrameLayout
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:id="@+id/primary_container"
+        android:layout_weight="0.4"
+    >
+    <!-- we use a placeholder here so we can always call replace on fragments w/t caring bout state -->
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:id="@+id/secondary_container"
+        android:layout_weight="0.6"
+        android:background="#334456"
+    />
+</LinearLayout>
