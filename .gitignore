@@ -1,0 +1,13 @@
+*.bak
+*~
+*.svn
+*.project
+*.classpath
+.settings/
+gen/
+bin/
+.metadata/
+server/target/
+server/build/
+generated_reports/
+
