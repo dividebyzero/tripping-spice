@@ -1,21 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+   
+        
+        
+        
+        
+        
+        
     <string-array name="row1">
-        <item >@string/row1_001</item>
-        <item />
         
-    </string-array>
+<item>@string/row1_001</item>
+<item>@string/row1_002</item>
 
-    <string-array name="row2">
-       <item >@string/row1_001</item>
-       <item />
+<item>@string/row1_003</item>
+
+<item>@string/row1_004</item>
+<item>@string/row1_005</item>
+<item>@string/row1_006</item>
+<item>@string/row1_007</item>
+<item>@string/row1_008</item>
+<item>@string/row1_009</item>
+<item>@string/row1_010</item>
+<item>@string/row1_011</item>
+<item>@string/row1_012</item>
+<item>@string/row1_013</item>
+<item>@string/row1_014</item>
+<item>@string/row1_015</item>
+<item>@string/row1_016</item>
+<item>@string/row1_017</item>
+<item>@string/row1_018</item>
+<item>@string/row1_019</item>
+<item>@string/row1_020</item>
+<item>@string/row1_021</item>
+<item>@string/row1_022</item>
+<item>@string/row1_023</item>
+<item>@string/row1_024</item>
+<item>@string/row1_025</item>
+<item>@string/row1_026</item>
+<item>@string/row1_027</item>
+<item>@string/row1_028</item>
+<item>@string/row1_029</item>
+<item>@string/row1_030</item>
+<item>@string/row1_031</item>
+<item>@string/row1_032</item>
+<item>@string/row1_033</item>
+<item>@string/row1_034</item>
+<item>@string/row1_035</item>
+<item>@string/row1_036</item>
+<item>@string/row1_037</item>
+<item>@string/row1_038</item>
+<item>@string/row1_039</item>
+<item>@string/row1_040</item>
+<item>@string/row1_041</item>
+<item>@string/row1_042</item>
+<item>@string/row1_043</item>
+<item>@string/row1_044</item>
+<item>@string/row1_045</item>
+<item>@string/row1_046</item>
+<item>@string/row1_047</item>
+<item>@string/row1_048</item>
+<item>@string/row1_049</item>
+<item>@string/row1_050</item>
+<item>@string/row1_051</item>
+<item>@string/row1_052</item>
+<item>@string/row1_053</item>
+<item>@string/row1_054</item>
+<item>@string/row1_055</item>
+<item>@string/row1_056</item>
+<item>@string/row1_057</item>
+<item>@string/row1_058</item>
+<item>@string/row1_059</item>
+<item>@string/row1_060</item>
+        </string-array>
+    <!-- row two insults -->
+        <string-array name="row2">
+<item>@string/row2_001</item>
+<item>@string/row2_002</item>
+<item>@string/row2_003</item>
+<item>@string/row2_004</item>
+<item>@string/row2_005</item>
+<item>@string/row2_006</item>
+<item>@string/row2_007</item>
+<item>@string/row2_008</item>
+<item>@string/row2_009</item>
+<item>@string/row2_010</item>
+<item>@string/row2_011</item>
+<item>@string/row2_012</item>
+<item>@string/row2_013</item>
+<item>@string/row2_014</item>
+<item>@string/row2_015</item>
+<item>@string/row2_016</item>
+<item>@string/row2_017</item>
+<item>@string/row2_018</item>
+<item>@string/row2_019</item>
+<item>@string/row2_020</item>
+<item>@string/row2_021</item>
+<item>@string/row2_022</item>
+<item>@string/row2_023</item>
+<item>@string/row2_024</item>
+<item>@string/row2_025</item>
+<item>@string/row2_026</item>
+<item>@string/row2_027</item>
+<item>@string/row2_028</item>
+<item>@string/row2_029</item>
+<item>@string/row2_030</item>
+<item>@string/row2_031</item>
+<item>@string/row2_032</item>
+<item>@string/row2_033</item>
+<item>@string/row2_034</item>
+<item>@string/row2_035</item>
+<item>@string/row2_036</item>
+<item>@string/row2_037</item>
+<item>@string/row2_038</item>
+<item>@string/row2_039</item>
+<item>@string/row2_040</item>
+<item>@string/row2_041</item>
+<item>@string/row2_042</item>
+<item>@string/row2_043</item>
+<item>@string/row2_044</item>
+<item>@string/row2_45</item>
+<item>@string/row2_046</item>
+<item>@string/row2_047</item>
+<item>@string/row2_048</item>
+<item>@string/row2_050</item>
+<item>@string/row2_051</item>
+<item>@string/row2_052</item>
+<item>@string/row2_053</item>
+<item>@string/row2_054</item>
+<item>@string/row2_055</item>
+<item>@string/row2_056</item>
+<item>@string/row2_087</item>
+<item>@string/row2_058</item>
+<item>@string/row2_059</item>
+<item>@string/row2_060</item>
+<item>@string/row2_061</item>
+</string-array>
+    <!-- row 3 insults -->
+        <string-array name="row3">
+<item>@string/row3_001</item>
+<item>@string/row3_002</item>
+<item>@string/row3_003</item>
+<item>@string/row3_004</item>
+<item>@string/row3_005</item>
+<item>@string/row3_006</item>
+<item>@string/row3_007</item>
+<item>@string/row3_008</item>
+<item>@string/row3_009</item>
+<item>@string/row3_010</item>
+<item>@string/row3_011</item>
+<item>@string/row3_012</item>
+<item>@string/row3_013</item>
+<item>@string/row3_014</item>
+<item>@string/row3_015</item>
+<item>@string/row3_016</item>
+<item>@string/row3_017</item>
+<item>@string/row3_018</item>
+<item>@string/row3_019</item>
+<item>@string/row3_020</item>
+<item>@string/row3_021</item>
+<item>@string/row3_022</item>
+<item>@string/row3_023</item>
+<item>@string/row3_024</item>
+<item>@string/row3_025</item>
+<item>@string/row3_026</item>
+<item>@string/row3_027</item>
+<item>@string/row3_028</item>
+<item>@string/row3_029</item>
+<item>@string/row3_030</item>
+<item>@string/row3_031</item>
+<item>@string/row3_032</item>
+<item>@string/row3_033</item>
+<item>@string/row3_034</item>
+<item>@string/row3_035</item>
+<item>@string/row3_036</item>
+<item>@string/row3_037</item>
+<item>@string/row3_038</item>
+<item>@string/row3_039</item>
+<item>@string/row3_040</item>
+<item>@string/row3_041</item>
+<item>@string/row3_042</item>
+<item>@string/row3_043</item>
+<item>@string/row3_044</item>
+<item>@string/row3_045</item>
+<item>@string/row3_046</item>
+<item>@string/row3_047</item>
+<item>@string/row3_048</item>
+<item>@string/row3_049</item>
+<item>@string/row3_050</item>
+<item>@string/row3_051</item>
+<item>@string/row3_052</item>
+<item>@string/row3_053</item>
+<item>@string/row3_054</item>
+<item>@string/row3_055</item>
+<item>@string/row3_056</item>
+<item>@string/row3_057</item>
+<item>@string/row3_058</item>
+<item>@string/row3_059</item>
+<item>@string/row3_060</item>
+<item>@string/row3_061</item>
+
+</string-array>      
         
-    </string-array>
-    
         
-    <string-array name="row3">
-        <item >@string/row1_001</item>
-        <item />
         
-    </string-array>        
 </resources>
