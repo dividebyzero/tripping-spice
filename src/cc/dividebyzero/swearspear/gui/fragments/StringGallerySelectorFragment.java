@@ -4,17 +4,19 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Gallery;
 import cc.dividebyzero.swearspear.R;
 
-public class StringGallerySelectorFragment extends StringSelectorFragment {
+public class StringGallerySelectorFragment extends StringSelectorFragment implements OnItemSelectedListener {
     
     private static final String LOG_TAG = StringGallerySelectorFragment.class.getSimpleName();
     private View                content;
     private Gallery             mGallery;
     
-    private int                 mArrayResourceId;
+    
     private String[]            mDataSource;
     
     @Override
@@ -22,17 +24,20 @@ public class StringGallerySelectorFragment extends StringSelectorFragment {
         
         if (container == null) { return null; }
         
-        content = inflater.inflate(R.layout.control_panel_fmt, null);
+        content = inflater.inflate(R.layout.gallery_selector_fmt, null);
         mGallery = (Gallery) content.findViewById(R.id.gallery1);
+        mGallery.setOnItemSelectedListener(this);
+        
+        updateAdapter();
         
         return content;
     }
     
-    private void updateAdapter() {
+    protected void updateAdapter() {
         if (mGallery != null)
         {
             mDataSource = getResources().getStringArray(mArrayResourceId);
-            ArrayAdapter<String> aas = new ArrayAdapter<String>(getActivity().getApplicationContext(), android.R.id.text1, mDataSource);
+            ArrayAdapter<String> aas = new ArrayAdapter<String>(getActivity().getApplicationContext(),R.layout.single_item_insult_view,R.id.textView1, mDataSource);
             mGallery.setAdapter(aas);
         } else
         {
@@ -52,13 +57,22 @@ public class StringGallerySelectorFragment extends StringSelectorFragment {
         return null;
     }
     
-    public void setArrayResourceId(int mArrayResourceId) {
-        this.mArrayResourceId = mArrayResourceId;
-        updateAdapter();
+
+
+    public void onItemSelected(AdapterView<?> arg0, View arg1, int pos, long id) {
+        
+        if(mEventListener!=null && mDataSource!=null){
+            final String item= mDataSource[pos];
+            mEventListener.onItemSelected(mArrayResourceId, item);
+        }else{
+            android.util.Log.e(LOG_TAG,"error, no data or no listener");
+        }
+        
     }
-    
-    public int getArrayResourceId() {
-        return mArrayResourceId;
+
+    public void onNothingSelected(AdapterView<?> arg0) {
+        // TODO Auto-generated method stub
+        
     }
     
 }

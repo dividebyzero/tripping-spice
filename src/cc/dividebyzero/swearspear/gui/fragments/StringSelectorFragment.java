@@ -4,10 +4,10 @@ package cc.dividebyzero.swearspear.gui.fragments;
 public abstract class StringSelectorFragment extends SelectorFragment<String> {
     
     public interface StringEventListener extends EventListener<String>{
-        public void onItemSelected(String item);
+        public void onItemSelected(final int selectorId,String item);
     }
     
-    private StringEventListener mEventListener; 
+    protected StringEventListener mEventListener; 
     
     @Override
     public abstract void makeRandomSelection();

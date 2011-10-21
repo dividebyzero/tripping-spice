@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="row1">
+        <item >@string/row1_001</item>
+        <item />
+        
+    </string-array>
+
+    <string-array name="row2">
+       <item >@string/row1_001</item>
+       <item />
+        
+    </string-array>
+    
+        
+    <string-array name="row3">
+        <item >@string/row1_001</item>
+        <item />
+        
+    </string-array>        
+</resources>
