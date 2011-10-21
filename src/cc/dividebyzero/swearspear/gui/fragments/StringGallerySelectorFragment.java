@@ -1,5 +1,7 @@
 package cc.dividebyzero.swearspear.gui.fragments;
 
+import java.util.Random;
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -47,8 +49,12 @@ public class StringGallerySelectorFragment extends StringSelectorFragment implem
     
     @Override
     public void makeRandomSelection() {
-        // TODO Auto-generated method stub
-        
+        if(mDataSource!=null )
+        {
+            Random rand=new Random();
+            int p=rand.nextInt(mDataSource.length);
+            mGallery.setSelection(p);
+        }
     }
     
     @Override
