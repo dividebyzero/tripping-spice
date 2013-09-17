@@ -1,9 +1,15 @@
-*.bak
-*~
-*.svn
-*.project
-*.classpath
-.settings/
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
 gen/
 bin/
 .metadata/
@@ -11,3 +17,16 @@ server/target/
 server/build/
 generated_reports/
 
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+*.bak
+*~
+*.svn
+*.project
+*.classpath
+.settings/
